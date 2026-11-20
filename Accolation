@@ -1,0 +1,14 @@
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<script>
+const tg = window.Telegram.WebApp;
+
+console.log(tg.initData);
+console.log(tg.initDataUnsafe);
+
+const user = tg.initDataUnsafe.user;
+
+console.log(user.id);
+console.log(user.first_name);
+console.log(user.username);
+</script>
